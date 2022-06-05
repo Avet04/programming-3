@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game of Life</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+    <script src="class.js"></script>
+    <script src="script.js"></script>
+</head>
+    <body>
+        <table>
+            <tr id="first">
+                <td class="alice"></td>
+                <td class="alice">Color</td>
+                <td class="alice">Basic Info</td>
+                <td class="alice">Energy</td>
+                <td class="alice">Multiply info</td>
+                <td class="alice">Energy Obtainment</td>
+                <td class="alice">Special Characteristic</td>
+            </tr>
+            <tr class="second">
+                <td id="gray" ></td>
+                <td>
+                    <p>Gray</p>
+                </td>
+                <td>
+                    <p>Just an empty space</p>
+                </td>
+                <td>
+                    <p>-</p>
+                </td>
+                <td>No multiply</td>
+                <td>
+                    <p>No energy</p>
+                </td>
+                <td>
+                    <p>No special characteristics</p>
+                </td>
+            </tr>
+    
+            <tr class="third">
+                <td id="green"></td>
+                <td>
+                    <p>Dirty Green</p>
+                </td>
+                <td>
+                    <p>It's just a Grass.</p>
+                </td>
+                <td>
+                    <p>-</p>
+                </td>
+                <td>
+                    <p>Can multiply once in 3 frames</p>
+                </td>
+                <td>
+                    <p>No energy</p>
+                </td>
+                <td>
+                    <p>No special characteristics</p>
+                </td>
+            </tr>
+    
+            <tr class="second">
+                <td id="Yellow" ></td>
+                <td>
+                    <p>Hot Yellow</p>
+                </td>
+                <td>
+                    <p>Vegan</p>
+                </td>
+                <td>
+                    <p>5</p>
+                </td>
+                <td>
+                    <p>Multiplies after energy reaches 10+</p>
+                </td>
+                <td>
+                    <p>Eating Grass</p>
+                </td>
+                <td>
+                    <p>Can walk on Damaged Soil and make it White</p>
+                </td>
+            </tr>
+    
+            <tr class="third">
+                <td id="red"></td>
+                <td>
+                    <p>Red</p>
+                </td>
+                <td>
+                    <p>Human</p>
+                </td>
+                <td>
+                    <p>5</p>
+                </td>
+                <td>
+                    <p>Multiplies after energy reaches 2</p>
+                </td>
+                <td>
+                    <p>Killing Yellow</p>
+                </td>
+                <td>
+                    <p>Can walk on Damaged Soil and make it White; <br> Walks on Grass without obtaining Energy</p>
+                </td>
+            </tr>
+    
+            <tr class="second">
+                <td id="purple" ></td>
+                <td>
+                    <p>Night Purple</p>
+                </td>
+                <td>
+                    <p>Monster</p>
+                </td>
+                <td>
+                    <p>-</p>
+                </td>
+                <td>
+                    <p>it doesn`t multiply</p>
+                </td>
+                <td>
+                    <p>7 energy</p>
+                </td>
+                <td>
+                    <p>Kills people</p>
+                </td>
+            </tr>
+
+            <tr class="third">
+                <td id="black"></td>
+                <td>
+                    <p>Omnivirus</p>
+                </td>
+                <td>
+                    <p>Omnivirus can kill <br></br> everything except grass</p>
+                </td>
+                <td>
+                    <p>-</p>
+                </td>
+                <td>
+                    <p>Can`t multiply</p>
+                </td>
+                <td>
+                    <p>No energy</p>
+                </td>
+                <td>
+                    <p>Can walk on everything</p>
+                </td>
+            </tr>
+            
+        </table>
+    </body>
+</html>
